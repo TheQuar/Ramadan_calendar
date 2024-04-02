@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RamadanCalendar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.RamadanCalendar" parent="Base.Theme.RamadanCalendar" />
+
+    <style name="TextStyle.ToolbarText1" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/title</item>
+        <item name="android:textColor">@color/selected</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.ToolbarText2" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/description</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>
